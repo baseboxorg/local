@@ -26,8 +26,6 @@ install chruby
 install ruby-install
 install nginx
 install php55 --with-mysql --with-cgi
-install lua
-install luajit
 install python
 cask install node
 
@@ -35,11 +33,13 @@ cask install node
 install redis
 install mongodb
 install sqlite
-install mysql
+install mariadb
 cask install sequel-pro  
 
 # git
 install git
+install hub
+install tree
 install tig
 install gitsh
 cask install gitbox
@@ -60,10 +60,8 @@ install ranger
 # install highlight
 install wget
 install dockutil
-install sleepwatcher
-install fswatch
 install duti
-# install rsync
+install rsync
 
 # virtual machine
 cask install vmware-fusion
@@ -78,7 +76,7 @@ install vim --with-client-server --with-lua --with-luajit
 install fzf
 install ack
 install ag
-# install heroku-toolbelt
+install heroku-toolbelt
 cask install kaleidoscope-beta
 install imagemagick --build-from-source
 install fontforge
@@ -97,9 +95,8 @@ install w3m
 
 # utilities
 cask install dropbox
+cask install google-drive
 cask install onepassword
-cask install bartender
-cask install keyboard-maestro
 cask install hyperdock
 cask install bootchamp
 cask install teleport
@@ -110,53 +107,34 @@ cask install daisydisk
 cask install the-unarchiver
 cask install sequential
 cask install appcleaner
-cask install cleanmymac
 cask install shortcat
 cask install alfred
 cask alfred link
 
-# sound
-cask install audio-hijack-pro
-cask install soundflower
-cask install fission
+
 
 # text
 cask install scrivener
 
 # downloads
 cask install transmission
+cask install cyberduck
 cask install bittorrent-sync
 cask install sabnzbd
 cask install sickbeard
-cask install fourk-youtube-to-mp3
 install youtube-dl
 
 # video
 cask install vlc
-cask install handbrake
-cask install air-video-server
-# cask install plex-media-server
-cask install plex-home-theater
-cask install airparrot
 cask install airserver
 
-# music
-install cmus
-cask install groovesquid
-cask install spotify
 
 # communication
 cask install skype
 cask install google-hangouts
 cask install teamviewer
-cask install slack
-install center-im
-install mutt
 
-# games
-cask install steam
-cask install dolphin
-cask install controllermate
+
 
 # quicklook plugins
 cask install qlcolorcode
